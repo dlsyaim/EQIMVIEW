@@ -1,0 +1,56 @@
+.boxAllOn{
+	width: 100%;
+	background: #F4F4F4;
+}
+.boxAllOn .boxContent{
+	width: 97%;
+	margin: 10px auto;
+}
+.boxAllOn .boxContent h3{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 40px;
+}
+.boxAllOn .boxContent .boxTop,
+.boxAllOn .boxContent .boxCenter,
+.boxAllOn .boxContent .boxBottom{
+	padding: 10px;
+	background: #FFFFFF;
+	margin-top: 15px;
+}
+.boxAllOn .boxContent .heardTitle{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.boxAllOn .boxContent .el-col-4 .el-input__inner,
+.boxAllOn .boxContent .el-col-5 .el-input__inner,
+.boxAllOn .boxContent .el-col-6 .el-input__inner,
+.boxAllOn .boxContent .el-col-12 .el-input__inner{
+	text-align: center;
+}
+.boxAllOn .boxContent .heardTitle .el-col-4,
+.boxAllOn .boxContent .heardTitle .el-col-5,
+.boxAllOn .boxContent .heardTitle .el-col-6,
+.boxAllOn .boxContent .heardTitle .el-col-12{
+	border: 1px solid #c0c4cc;
+	background: #E4E7ED;
+	border-radius: 5px;
+}
+.boxAllOn .boxContent .boxTop .search{
+	height: 50px;
+	line-height: 50px;
+}
+.boxAllOn .boxContent .boxTop h4{
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: normal;
+}
+.boxAllOn .boxContent .boxTop p{
+	line-height: 30px;
+}
+.boxAllOn .boxContent .boxBtn{
+	text-align: center;
+	height: 50px;
+	background: #FFFFFF;
+}

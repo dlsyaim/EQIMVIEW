@@ -1,0 +1,39 @@
+.boxMain{
+	width: 100%;
+	height: 100%;
+	background: #F4F4F4;
+}
+.boxMain .boxDefult{
+	width: 95%;
+	margin: 10px auto;
+	background: #FFFFFF;
+	padding: 10px 0 10px 10px;
+}
+
+.boxMain .boxDefult h3,
+.boxMain .boxDefult h4,
+.boxMain .boxDefult p{
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 30px;
+}
+.boxMain .boxDefult h4{
+	font-size: 15px;
+}
+.boxMain .boxDefult p{
+	font-size: 14px;
+}
+.boxMain .boxDefult p span{
+	margin-right: 20px;
+}
+.boxMain .boxDefult img{
+	width: 200px;
+	margin: 10px 0;
+}
+.boxMain .boxDefult .search .el-col{
+	margin: 5px 0;
+}
+ .boxMain .boxBtn{
+	 text-align: center;
+	 margin-top: 10px;
+ }

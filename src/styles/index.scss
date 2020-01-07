@@ -1,0 +1,123 @@
+@import './variables.scss';
+@import './sidebar.scss';
+
+a, a:focus, a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+*{ padding:0px; margin:0px; font-size:12px;  font-family: "Arial","微软雅黑";}
+li,ul,ol{ padding:0px; margin:0px; list-style:none;}
+body,ul,ol,dl,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div{margin:0;padding:0;border:0;}
+.clear{ clear:both;}
+a{ color:#333; text-decoration:none; }
+a:hover{ text-decoration:none;}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+  
+#app {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0!important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+.el-container{
+    height: 100%;
+}
+
+.main-header.el-header {
+    padding: 0;
+    background: #2f333e;
+    height: 50px !important;
+}
+#app .el-aside
+{
+    transition: 0.3s ease-in;
+    transition-property: width;
+    background: #2f333e;
+}
+li.el-dropdown-menu__item
+{
+    transition: 0.3s ease-in;
+}
+
+.el-menu--vertical .el-submenu__title,.el-menu--vertical .el-submenu .el-menu-item
+{
+    height: 26px;
+    line-height: 26px;
+    padding-right: 40px;
+    min-width: auto;
+}
+.el-menu--vertical .el-menu--popup
+{
+    min-width: auto;
+    background-color:#303133 !important;
+}
+.el-menu--vertical .el-submenu__icon-arrow
+{
+    margin-top: -6px;
+}
+div.el-menu--vertical .nest-menu .el-submenu > .el-submenu__title:hover, div.el-menu--vertical .el-menu-item:hover
+ {
+     background: none !important;
+ }
+.el-menu--vertical .nest-menu .el-submenu > .el-submenu__title, .el-menu--vertical .el-menu-item
+{
+    background: none !important;
+}
+.app-main .el-scrollbar__wrap
+{
+    overflow-x:hidden;
+}
+
+.el-scrollbar__view{
+    height: 100%;
+}
+
+.el-select-dropdown__item
+{
+    transition: 0.3s ease-in;
+}
+.el-date-table td span
+{
+    transition: 0.3s ease-in;
+}
+.el-card
+{
+    border:0;
+    border-radius: 0;
+}
+.el-button
+{
+    transition: 0.3s ease-in;
+}
+.pagination-container
+{
+    text-align: center;
+    padding: 20px 19px!important;
+}
+.el-pagination.is-background .btn-next, 
+.el-pagination.is-background .btn-prev, 
+.el-pagination.is-background .el-pager li
+{
+    transition: 0.3s ease-in;
+}
+.contentpage-box
+{
+    position: relative;
+    padding: 20px 0;
+}
+
+.el-input__inner {
+    line-height: normal !important;
+}
